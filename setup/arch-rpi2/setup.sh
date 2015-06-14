@@ -24,7 +24,7 @@
 
 source /home/pi/pes/setup/arch-rpi2/functions.sh
 
-setupDir="$baseDir/setup/arch"
+setupDir="$baseDir/setup/arch-rpi2"
 
 header "Updating OS..."
 run sudo pacman -Syu
