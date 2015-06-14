@@ -38,6 +38,9 @@ run $setupDir/customise-os.sh
 header "Setting up PS3 Bluetooth control pad support.."
 run $setupDir/install-qtsixad.sh
 
+header "Installing SDL2..."
+run $setupDir/install-sdl2.sh
+
 header "Setting up RetroArch..."
 run $setupDir/install-retroarch.sh
 
